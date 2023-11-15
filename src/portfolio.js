@@ -23,7 +23,7 @@ const greeting = {
   username: "Parthiv Akbari",
   title: "Hi all, I'm Parth",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Ethers / Solidity and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Angularjs / Reactjs / Nodejs / Ethers / Solidity and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-Ko7Ut1LfI6aE-UvwcPC8GFIEYFkRJ7f/view?usp=drive_link", // Set to empty to hide the button
@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/parth-5097",
   linkedin: "https://www.linkedin.com/in/parthiv-akbari/",
   gmail: "parthivakbari11@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@parthivakbari11",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -238,7 +238,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -276,7 +276,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -285,50 +284,48 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IBM Blockchain Essential",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Developed an understanding of Blockchain principles and practices and how they can be applied within a business environment.",
+      image: require("./assets/images/IBM_blockchainLogo.png"),
+      imageAlt: "IBM Blockchain Essential Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credly.com/badges/707b4b13-ecb4-4791-a1c1-c8be301f6f30/linked_in_profile"
         }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Data-Quezt",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Data-Quezt is a data analytics competition open to graduate and post-graduate students anywhere in India enthusiastic about crunching, manipulating, validating and analysing data.",
+      image: require("./assets/images/data_queztLogo.png"),
+      imageAlt: "Data-Quezt Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.credly.com/badges/4c429b4a-9eda-4852-9ccc-da98355a868c/linked_in_profile"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Automated Guided Vehicle",
+      subtitle: "Research paper about the AGV",
+      image: require("./assets/images/irjetLogo.png"),
+      imageAlt: "IRJET Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Research Paper",
+          url: "https://www.irjet.net/archives/V7/i9/IRJET-V7I9300.pdf"
         }
       ]
     }
@@ -376,7 +373,14 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Twitter Section
+
+const twitterDetails = {
+  userName: "PAkbari5097", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 // Podcast Section
@@ -389,7 +393,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -398,13 +402,6 @@ const contactInfo = {
     "Discuss a project or just want to hire me? My Inbox is open for all.",
   number: "+1(438)928-1035",
   email_address: "parthivakbari11@gmail.com"
-};
-
-// Twitter Section
-
-const twitterDetails = {
-  userName: "PAkbari5097", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
