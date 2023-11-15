@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK WHICH IS ASSOCIATED WITH BLOCKCHAIN DEVELOPER",
+  subTitle:
+    "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK WHICH IS ASSOCIATED WITH BLOCKCHAIN DEVELOPER",
   skills: [
     emoji(
       "⚡ Develop highly interactive MEAN Stack for your web and mobile applications"
@@ -187,7 +188,7 @@ const educationInfo = {
       descBullets: [
         "Secured victory in a state-level hackathon by creating an Automated Guided Vehicle within the domains of IoT and Advanced Driver Assistance Systems (ADS).",
         "Participated in a national-level hackathon with the aim of making a significant impact on personal career growth and enhancing the university's reputation.",
-        "Demonstrated excellence in various subjects, actively contributing to practical learning by taking charge of labs and teaching fellow junior students. This experience not only strengthened public speaking skills but also deepened understanding of the subjects."  
+        "Demonstrated excellence in various subjects, actively contributing to practical learning by taking charge of labs and teaching fellow junior students. This experience not only strengthened public speaking skills but also deepened understanding of the subjects."
       ]
     }
   ]
@@ -203,7 +204,7 @@ const workExperiences = {
       company: "Dhameliya Infotech",
       companylogo: require("./assets/images/dhameliyaLogo.png"),
       date: "Aug 2020 – Aug 2021",
-      desc: "Throughout this timeframe, I engaged in client interactions, handling requests on behalf of the company. This resulted in the successful completion of two major projects and three minor projects, including maintenance tasks.",
+      desc: "Throughout this timeframe, I engaged in client interactions, handling requests on behalf of the company. This resulted in the successful completion of two major projects and three minor projects, including maintenance tasks."
       // descBullets: [
       //   "Orchestrated agile scrum ceremonies, including sprint planning and daily stand-up, in collaboration with cross-functional teams, ensuring seamless project execution and timely delivery of optimized features.",
       //   "Re-engineered full-stack development of web app resulting in bug-free releases deployed promptly and within standards, which improved performance and led to a 35% rise in sales."
@@ -214,7 +215,7 @@ const workExperiences = {
       company: "Dhameliya Infotech",
       companylogo: require("./assets/images/dhameliyaLogo.png"),
       date: "Jan 2020 – june 2020",
-      desc: "I initiated the process of learning how to efficiently build both backend and frontend, enabling me to design various large-scale applications.",
+      desc: "I initiated the process of learning how to efficiently build both backend and frontend, enabling me to design various large-scale applications."
       // descBullets: [
       //   "Collaborated with the development team to design and implement software solutions.",
       //   "Wrote clean and efficient code using Node and Angular."
@@ -225,7 +226,7 @@ const workExperiences = {
       company: "AtoZ Infoway LLP",
       companylogo: require("./assets/images/atozinfowayLogo.png"),
       date: "June 2019 – Dec 2019",
-      desc: "This marks my inaugural significant internship, during which I acquired knowledge about blockchain and its related technological concepts.",
+      desc: "This marks my inaugural significant internship, during which I acquired knowledge about blockchain and its related technological concepts."
       // descBullets: [
       //   "Implemented smart contracts using languages such as Solidity.",
       //   "Assisted in researching and implementing blockchain protocols and consensus algorithms."
