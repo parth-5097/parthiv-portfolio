@@ -1,9 +1,7 @@
-/* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
@@ -27,7 +25,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-Ko7Ut1LfI6aE-UvwcPC8GFIEYFkRJ7f/view?usp=drive_link", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -37,11 +35,10 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/parthiv-akbari/",
   gmail: "parthivakbari11@gmail.com",
   medium: "https://medium.com/@parthivakbari11",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  // gitlab: "",
+  // facebook: "",
+  // stackoverflow: "",
+
   display: true // Set true to display this section, defaults to false
 };
 
@@ -138,34 +135,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
+      Stack: "Full stack Developer (MEAN)",
       progressPercentage: "90%"
     },
     {
-      Stack: "Blockchain Tech",
-      progressPercentage: "60%"
+      Stack: "Backend Developer (Java)",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Smart Contract Developer (Solidity)",
+      progressPercentage: "70%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Concordia University",
@@ -197,7 +192,7 @@ const educationInfo = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Jr. Software Developer",
@@ -235,12 +230,11 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+/* Your Open Source Section to View Your Github Pinned Projects*/
 
 const openSource = {
   showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Some big projects you have worked on
@@ -250,30 +244,32 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/opentrackLogo.png"),
+      projectName: "OpenTracks: a sport tracker",
+      projectDesc:
+        "OpenTracks is a sport tracking application that completely respects your privacy.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://opentracksapp.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cryptochainLogo.png"),
+      projectName: "Cryptochain",
+      projectDesc:
+        "A full stack web application depicting the decentralized blockchain network involving a cryptocurrency 'CryptoChain' coin for transactions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/parth-5097/cryptochain"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -331,7 +327,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -340,7 +336,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true",
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -355,7 +351,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections
@@ -374,14 +370,14 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "PAkbari5097", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "PAkbari5097",
+  display: true
 };
 
 // Podcast Section
@@ -391,10 +387,8 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  podcast: ["https://anchor.fm/"],
+  display: false
 };
 
 const contactInfo = {
@@ -405,7 +399,7 @@ const contactInfo = {
   email_address: "parthivakbari11@gmail.com"
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
