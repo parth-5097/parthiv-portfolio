@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "https://parth-5097.github.io/static/css/main.ee75091d.css",
+    "main.js": "https://parth-5097.github.io/static/js/main.59993a48.js",
+    "static/css/64.bba8fa55.chunk.css": "https://parth-5097.github.io/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.9f336554.chunk.js": "https://parth-5097.github.io/static/js/64.9f336554.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "https://parth-5097.github.io/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.4c90525d.chunk.js": "https://parth-5097.github.io/static/js/769.4c90525d.chunk.js",
+    "static/media/cryptochainLogo.png": "https://parth-5097.github.io/static/media/cryptochainLogo.813aaa4f23f3ad50729b.png",
+    "static/media/Montserrat-Regular.ttf": "https://parth-5097.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "https://parth-5097.github.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/IBM_blockchainLogo.png": "https://parth-5097.github.io/static/media/IBM_blockchainLogo.c7406dbb62f812e996eb.png",
+    "static/media/concordiaLogo.png": "https://parth-5097.github.io/static/media/concordiaLogo.f5960650a3e506c9e9a2.png",
+    "static/media/manOnTable.svg": "https://parth-5097.github.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/data_queztLogo.png": "https://parth-5097.github.io/static/media/data_queztLogo.cf2bf22279e220a45e39.png",
+    "static/media/atozinfowayLogo.png": "https://parth-5097.github.io/static/media/atozinfowayLogo.c5cd654d6dd2e166933b.png",
+    "static/media/dhameliyaLogo.png": "https://parth-5097.github.io/static/media/dhameliyaLogo.2ab41628434e17ec76ce.png",
+    "static/media/contactMailDark.svg": "https://parth-5097.github.io/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "https://parth-5097.github.io/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/skill.svg": "https://parth-5097.github.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "https://parth-5097.github.io/index.html",
+    "static/media/talksCardBack.svg": "https://parth-5097.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.ee75091d.css.map": "https://parth-5097.github.io/static/css/main.ee75091d.css.map",
+    "main.59993a48.js.map": "https://parth-5097.github.io/static/js/main.59993a48.js.map",
+    "64.bba8fa55.chunk.css.map": "https://parth-5097.github.io/static/css/64.bba8fa55.chunk.css.map",
+    "64.9f336554.chunk.js.map": "https://parth-5097.github.io/static/js/64.9f336554.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "https://parth-5097.github.io/static/css/769.b3cbb36b.chunk.css.map",
+    "769.4c90525d.chunk.js.map": "https://parth-5097.github.io/static/js/769.4c90525d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee75091d.css",
+    "static/js/main.59993a48.js"
+  ]
+}
