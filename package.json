@@ -1,5 +1,4 @@
 {
-  "homepage": "https://parth-5097.github.io/parthiv-portfolio",
   "name": "parthiv-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -29,6 +28,7 @@
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
+  "homepage": "https://parth-5097.github.io/parthiv-portfolio",
   "eslintConfig": {
     "extends": "react-app"
   },
