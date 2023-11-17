@@ -147,7 +147,7 @@ const techStack = {
     },
     {
       Stack: "Backend Developer (Java)",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Smart Contract Developer (Solidity)",
