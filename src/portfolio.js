@@ -23,8 +23,10 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Angularjs / Reactjs / Nodejs / Ethers / Solidity and some other cool libraries and frameworks."
   ),
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1-Ko7Ut1LfI6aE-UvwcPC8GFIEYFkRJ7f/view?usp=drive_link",
   resumeLink:
-    "https://drive.google.com/file/d/1-Ko7Ut1LfI6aE-UvwcPC8GFIEYFkRJ7f/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1w_U1C2dUe6JsCSAeSVjeRGi6qGpiRRE7/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true
 };
 
