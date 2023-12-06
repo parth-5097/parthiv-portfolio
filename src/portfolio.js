@@ -26,7 +26,7 @@ const greeting = {
   // resumeLink:
   //   "https://drive.google.com/file/d/1-Ko7Ut1LfI6aE-UvwcPC8GFIEYFkRJ7f/view?usp=drive_link",
   resumeLink:
-    "https://drive.google.com/file/d/1w_U1C2dUe6JsCSAeSVjeRGi6qGpiRRE7/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ybkqV8WkvS4siUV691gvglNMvJfUYDMS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true
 };
 
@@ -34,8 +34,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/parth-5097",
-  linkedin: "https://www.linkedin.com/in/parthiv-akbari/",
-  gmail: "parthivakbari11@gmail.com",
+  linkedin: "https://www.linkedin.com/in/parthiv-p-akbari/",
+  gmail: "parthivakbari99@gmail.com",
   medium: "https://medium.com/@parthivakbari11",
   // gitlab: "",
   // facebook: "",
