@@ -26,7 +26,7 @@ const greeting = {
   // resumeLink:
   //   "https://drive.google.com/file/d/1-Ko7Ut1LfI6aE-UvwcPC8GFIEYFkRJ7f/view?usp=drive_link",
   resumeLink:
-    "https://drive.google.com/file/d/1ybkqV8WkvS4siUV691gvglNMvJfUYDMS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12Jf-QEqG8YwOrQDXKyCtqpETXkeWIAz2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true
 };
 
@@ -196,6 +196,17 @@ const educationInfo = {
 const workExperiences = {
   display: true,
   experience: [
+    {
+      role: "Project Lead",
+      company: "for Love Of Writers",
+      companylogo: require("./assets/images/for_love_of_writers_logo.png"),
+      date: "Jan 2024 – Present",
+      desc: "Throughout this timeframe, I engaged in client interactions, handling requests on behalf of the company. This resulted in the successful completion of two major projects and three minor projects, including maintenance tasks."
+      // descBullets: [
+      //   "Orchestrated agile scrum ceremonies, including sprint planning and daily stand-up, in collaboration with cross-functional teams, ensuring seamless project execution and timely delivery of optimized features.",
+      //   "Re-engineered full-stack development of web app resulting in bug-free releases deployed promptly and within standards, which improved performance and led to a 35% rise in sales."
+      // ]
+    },
     {
       role: "Jr. Software Developer",
       company: "Dhameliya Infotech",
