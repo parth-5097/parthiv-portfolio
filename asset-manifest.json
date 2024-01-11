@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://parth-5097.github.io/parthiv-portfolio/static/css/main.ecbd31db.css",
-    "main.js": "https://parth-5097.github.io/parthiv-portfolio/static/js/main.74e6c52e.js",
+    "main.js": "https://parth-5097.github.io/parthiv-portfolio/static/js/main.dfdb5fea.js",
     "static/css/64.bba8fa55.chunk.css": "https://parth-5097.github.io/parthiv-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.9f336554.chunk.js": "https://parth-5097.github.io/parthiv-portfolio/static/js/64.9f336554.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "https://parth-5097.github.io/parthiv-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -21,7 +21,7 @@
     "index.html": "https://parth-5097.github.io/parthiv-portfolio/index.html",
     "static/media/talksCardBack.svg": "https://parth-5097.github.io/parthiv-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ecbd31db.css.map": "https://parth-5097.github.io/parthiv-portfolio/static/css/main.ecbd31db.css.map",
-    "main.74e6c52e.js.map": "https://parth-5097.github.io/parthiv-portfolio/static/js/main.74e6c52e.js.map",
+    "main.dfdb5fea.js.map": "https://parth-5097.github.io/parthiv-portfolio/static/js/main.dfdb5fea.js.map",
     "64.bba8fa55.chunk.css.map": "https://parth-5097.github.io/parthiv-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.9f336554.chunk.js.map": "https://parth-5097.github.io/parthiv-portfolio/static/js/64.9f336554.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "https://parth-5097.github.io/parthiv-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.ecbd31db.css",
-    "static/js/main.74e6c52e.js"
+    "static/js/main.dfdb5fea.js"
   ]
 }
