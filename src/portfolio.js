@@ -144,7 +144,7 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "Full stack Developer (MEAN)",
+      Stack: "Full stack Developer (MEAN/MERN)",
       progressPercentage: "90%"
     },
     {
@@ -197,10 +197,10 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Project Lead",
+      role: "Project Lead Developer",
       company: "for Love Of Writers",
       companylogo: require("./assets/images/for_love_of_writers_logo.png"),
-      date: "Jan 2024 – Present",
+      date: "Apr 2023 – Present",
       desc: "I lead cross-functional teams, drive the adoption of cutting-edge technologies, and execute strategic roadmaps, ensuring the successful and timely delivery of high-quality projects while fostering collaboration and client satisfaction."
       // descBullets: [
       //   "Orchestrated agile scrum ceremonies, including sprint planning and daily stand-up, in collaboration with cross-functional teams, ensuring seamless project execution and timely delivery of optimized features.",
